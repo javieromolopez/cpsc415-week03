@@ -1,0 +1,7 @@
+[
+  {"id": 1, "message": "I was charged twice on my credit card for this month's subscription. Can you please refund the duplicate $29 charge?", "expected": ["billing"]},
+  {"id": 2, "message": "Whenever I try to log in using Google OAuth on Chrome, the page returns a 500 Internal Server Error.", "expected": ["technical"]},
+  {"id": 3, "message": "We have a team of 35 people interested in upgrading. Do you offer custom enterprise pricing or volume discounts?", "expected": ["sales"]},
+  {"id": 4, "message": "My payment went through successfully yesterday, but the system still hasn't unlocked my account's Pro features and shows access denied.", "expected": ["billing", "technical"]},
+  {"id": 5, "message": "Can you give me a good recipe for homemade chocolate chip cookies?", "expected": ["unknown"]}
+]
