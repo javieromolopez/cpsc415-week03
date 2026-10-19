@@ -81,7 +81,7 @@ public class Eval {
 
     private static Result runClassifier(String message, Path usagePath) throws Exception {
         ProcessBuilder pb = new ProcessBuilder(
-                "java", "-cp", ".;lib/*", "Classifier", message);
+                "java", "-cp", "." + java.io.file.pathSeparator + ".;lib/*", "Classifier", message);
         pb.redirectErrorStream(false);
         Map<String, String> env = pb.environment();
         // Inherit OPENROUTER_API_KEY, CHAT_BASE_URL, CHAT_MODEL from parent.

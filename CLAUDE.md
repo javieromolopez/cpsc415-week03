@@ -4,19 +4,20 @@
      Graded: does it reflect how the team actually works? -->
 
 ## What this repository is
-One paragraph. Link to the current `spec.md`.
+A support message JSON classifier and automated evaluation harness comparing two OpenRouter models.
 
 ## Commands
 ```
-# build
-# test
-# run
-# lint
+# build 
+javac -cp ".;lib/*" *.java
+# test 
+java -cp ".;lib/*" Eval
 ```
 
 ## Conventions
-- Java will be the language, we will use the external library Jackson.
+- Language: Java (JDK 17+). Use Jackson for JSON parsing.
 - Default Model: minimax/minimax-m3
+- Tests live at the repository root.
 - File naming: PascalCase fo classes files (e.g., Classifier.java)
 
 ## Working rules
